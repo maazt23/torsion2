@@ -20,6 +20,7 @@ import { mdsvex } from 'mdsvex';
 const config = {
 	kit: {
 		/* Kit options here */
+		adapter: adapter()
 	},
 
 	extensions: ['.svelte', '.md'],
